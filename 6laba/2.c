@@ -208,8 +208,8 @@ int main(int argc, char *argv[]) {
     }
     max_procs = atoi(proc_str);
     if (max_procs <= 0 || max_procs > MAX_PROCS) {
-        printf("Используется 5 по умолчанию\n");
-        max_procs = 5;
+        printf("Используется 100 по умолчанию\n");
+        max_procs = 100;
     }
 
     printf("Макс процессов: %d\n\n", max_procs);
